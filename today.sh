@@ -1,3 +1,5 @@
+# By Zach Kirsch
+
 MAX_LINES=$1
 items=0
 num_lines=$(/usr/local/bin/icalBuddy -n -nc -ss "" -npn firstItemLine -ec "Homework,Office Hours,To-Do List" -li $items eventsToday | wc -l)
